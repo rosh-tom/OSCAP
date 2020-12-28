@@ -1,0 +1,790 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body{
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	.divSPACER{
+		margin-top: 12px;
+		width: 100%;
+	}
+
+
+
+ 	/* ----------------------------------------------------- ADMIN PAGE ----------------------------------------------------- *
+	 
+	/* ----------------------------------------------------- Navigation ------------------------------------------------- */
+ 
+	.navigation{
+		width: 100%;
+		background-color: green;
+		padding: 20px;
+
+	}
+
+	.navigation a{
+		text-decoration: none;
+		color: white;
+	}
+	.navigation a:hover{
+		color: silver;
+	}
+
+
+/* ----------------------------------------------------------- ADMIN ----------------------------------------------------* /
+/* ----------------------------------------------------------- leftside -----------------------------------------------*/
+	.leftside{
+		width: 30%;
+		float: left;
+		border: 1px solid silver;	 
+		padding: 0px 20px 20px 20px;
+		margin: 10px 0px 10px 16px; 
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+
+	}
+
+	.tomasTITLE{
+		padding: 10px 0px 10px 0px;
+		text-align: center;
+	}
+
+	.tomasHR{
+		margin-bottom: 20px;
+	}
+	.class_upload{
+		float: right;
+	}
+
+
+	.leftside input{
+		padding: 5px 10px 5px 10px;
+		
+	}
+
+	.div_img{
+		width: 100%;
+		margin: auto;			
+		border: 1px solid gray;
+		margin-top: 10px;
+		height: 250px;
+	}
+
+	.div_img img{
+		width: 100%;
+		height: 250px;
+	}
+
+	.items{
+		margin-top: 10px;
+	}
+
+	.tomas_inpt{
+		margin-left: 100px;	 
+	}
+
+	.tomas_inpt input{
+		width: 93%;
+		margin-bottom: 10px;
+
+	 }
+
+	.tomas_inpt textarea{
+		width: 93%;
+		margin-bottom: 10px;
+		padding: 5px 10px 5px 10px;
+		resize: vertical;
+
+	 }
+
+	 .dropme{
+	 	width: 65%;
+		margin-bottom: 20px;
+		padding: 5px 10px 5px 10px;
+	 }
+	 .avail{
+	 	margin-left: 20px;
+	 	cursor: pointer;
+
+	 }
+	 .addproduct{
+	 	float: right;
+	 	margin-top: -68px;	 	 
+	 }
+
+	 .addproduct input{
+	 	padding: 22px 10px 22px 10px;
+	 }
+
+
+
+
+
+	 /* --------------------------------------------- rightside -----------------------------------------*/
+
+
+	 .rightside{
+		float: left;
+		width: 60%;
+		border: 1px solid silver;
+		padding: 0px 20px 20px 20px;
+		margin: 10px 0px 10px 20px; 
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+	}	 
+
+	.rightside img{
+		height: 60px;
+		width: 100px;
+	}
+
+	.productlist{
+		width: 100%;
+		margin: 20px auto;
+		border: 1px	solid #cbcbcb;
+		height: 622px;
+		overflow: auto;
+		 
+	}
+		/* ---------------------------------------- Right side THe Table --------------------------------------------------*/
+
+	table{
+		width: 100%;		
+		border-collapse: collapse;
+		text-align: left;		
+	}
+
+
+	tr{
+		border-bottom: 1px solid #cbcbcb;
+
+	}
+
+	th{
+		border: none;
+		height: 30px;
+		padding: 2px 10px 2px 10px;
+	}
+
+	td{
+		border: none;		 
+		padding: 12px 10px 8px 10px;
+
+	}
+	
+
+	/* ========================================================== see all ======================================== */
+ 	.seeALL{
+ 		width: 100%;
+	  	float: left;
+	 	text-align: center;
+	 	margin-top: -20px;
+	 
+ 	}
+ 	.seeALL a{
+ 		text-decoration: none;
+ 		font-size: 20px;
+ 		color: #333;
+ 	}
+
+ 	.seeALL a:hover{
+ 		color: green;
+ 	}
+
+
+	 /*--------------------------------------------- Footer --------------------------------------------*/
+
+	 .footer{
+	 	width: 100%;
+	 	background-color: green;
+	 	text-align: center;
+	 	float: left;
+	 	padding: 10px;
+	 	margin-top: 20px;
+	 
+	 
+	 }
+	  .footer a{
+	color: #333;
+	text-decoration: none;
+
+	  }
+	    .footer a:hover{
+	 	color: white;
+	
+	  }
+
+
+
+	 /*********************************************************************************************************************/
+
+	/* -------------------------------------------- END OF ADMIN PAGE ------------------------------------------------ */
+
+	.wallpaper{
+	background-image: url('webimages/wallpaper_1.png') ;
+	background-repeat: no-repeat;
+	width: 90%;
+    height: 300px;
+    box-shadow: 0 0 8px 8px white inset;
+    margin: auto;
+    text-align: center;    
+	}
+
+	.wallpaperLabel{
+		padding-top: 62px;
+		font-size: 60px;
+		color: white;
+		font-weight: bold;
+		text-shadow: 2px 2px green;
+	}
+	.homenav{
+		margin-top: 3px;
+		width: 100%;
+		background-color: green;
+		padding: 1px;
+		box-shadow: 0 0 8px 1px white inset;		  
+  		position: sticky;
+  		top: 0;
+  	}
+
+.homenav a{
+		color: white;
+		text-decoration: none;
+	}
+
+
+	.homenav a:hover{
+		color: silver;
+	 
+	}
+
+	.navtopSPACE{
+		height: 80px;
+		width: 100%;
+
+	}
+
+  	.logoIMG{
+  		width: 50px;
+  		height: 50px;
+  		margin-left: 20px;
+  		float: left;
+  	}
+
+  	.leftsideNav{
+  		float: right;
+  		margin-top: -40px;
+  		margin-right: 100px;
+
+  	}
+  	/*                              searching                                */	
+	.searching{
+		float: left;
+		margin-right: 80px;
+		margin-top: -6px;
+	}
+
+	.inpsearch{
+		width: 300px;
+		padding: 8px;
+	}
+	.btnsearch{
+		padding: 5px;
+	}
+
+	.notFound{
+		width: 100%;
+		text-align: center;
+	}
+	.notFound p{
+		margin-top: 120px;
+		margin-bottom: 163px;
+	}
+
+  	/* ---------------------------------- cart ----------------------------------*/
+  	
+  	.backtoindexCART{
+  		text-align: center;
+  		width: 100%;
+  		padding-bottom: 10px;
+
+  	}
+  	.backtoindexCART a{
+  		text-decoration: none;  	 
+  		color: green;
+  		padding-right: 10px;
+  	}
+  	.backtoindexCART a:hover{
+  		font-weight: bold;
+  		color: #333;
+  	}
+
+
+  	.cartLOGO{
+  		float: left;
+  		margin-right: 10px;
+  		margin-top: -6px;
+  		 
+  	}
+  	.cartLOGO img{
+  		width: 40px;
+  		height: 40px;
+  		 
+  	}
+  	.cartItems{
+  		margin-top: -44px;
+  		margin-left: 18px;
+  		position: absolute;
+  		font-size: 12px;
+  		color: white;
+  	}
+  	 .accountLOGO{
+  		float: left;
+  		padding-left: 10px;
+  		margin-right: 50px; 
+
+  		 
+  	}
+  	.accountLOGO img{
+  		width: 30px;
+  		height: 30px;
+  		 
+  	}
+  	.accName{
+  		float: right;
+  		padding-top: 5px;
+  		margin-left: 10px;
+  		font-size: 18px;
+  		color: black;
+
+  	}
+  	.loginLOGO{
+  		float: left;
+  		 margin-right: 10px;
+  		
+  	}
+  	 	.registerLOGO{
+  		float: left;
+  		 
+  		
+  	}
+
+  	.breaker{
+  		float: left;
+  		margin-right: 10px;
+  	}
+
+
+
+
+  	/* ============================================ register page ============================================*/
+  	.btnCreate{
+  		
+  	}
+
+  /* ======================================================== dropdown ==================================*/
+  .navi_items_btn_dropdown{
+	display: none;
+	background-color: green;
+	position: absolute;
+	min-width: 160px;	 
+	box-shadow: 0 0 8px 0px white inset;	
+	z-index: 1;
+
+}
+ 
+.navi_items_btn_dropdown a{
+	display: block;
+	
+	padding: 12px 16px;
+	text-decoration: none;
+}
+
+/* ------------- Hover ---------- */
+.accountLOGO:hover .navi_items_btn_dropdown{
+	display: block;
+
+}
+
+.navi_items_btn_dropdown a:hover{
+	background-color: black;
+
+}
+
+
+
+
+
+
+  	/*                                           END   */
+
+	
+	.logoLABEL{
+	 padding: 16px;
+	 font-size: 20px;
+ 
+	  color: white;
+	}
+	 
+
+	.contentLabel{
+		text-align: center;
+		padding: 30px;
+	}
+
+	.contentLabel h1{
+		color: #262625;
+		font-size: 40px;
+		padding-top: 20px;
+	}
+
+	.contentLabel a{
+		text-decoration: none;
+		
+	}
+	.notselected{
+		color: #838383;
+		font-size: 20px;
+		padding: 10px;
+	}
+	.selected{
+		color: #262625;
+		font-size: 20px;
+		padding: 10px;
+	}
+
+
+	.notselected:hover{
+		color: #262625;
+	}
+
+	.insideContentLabel{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+
+	.content{
+		width: 85%;
+		padding: 8px;
+		margin: auto;
+		 
+
+	}
+
+	/* ----------------------------------------------------------- PRODUCT CARD  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); ------------------------------------- */
+
+			.card {
+			  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+			  width: 250px;
+			  margin: auto;
+			  text-align: center;			 
+			  display: inline-block;
+			  margin: 16px 16px 40px 16px;
+
+
+
+			}
+
+			.card button {
+			  border: none;
+			  outline: 0;
+			  padding: 12px;
+			  color: white;
+			  background-color: #333;
+			  text-align: center;
+			  cursor: pointer;
+			  width: 100%;
+			  font-size: 16px;
+			  border-radius: 5px;
+			  margin-bottom: -20px;
+			}
+
+			.price{
+				color: grey;
+			 	font-size: 18px;
+			  	padding: 5px;
+			}
+			.card p{				 
+			  	padding: 5px;
+			}
+			.card button:hover {
+		 
+			  background-color: green;
+			}
+
+			.card h1{
+				padding: 4px 0px 8px 0px;
+				font-size: 22px;
+			}
+
+			.myimg{
+				width: 100%;
+				height: 200px;
+			}
+
+
+
+
+/* =============================================== Cart page =======================================================*/
+ 
+	
+	.CARTcontent{
+		width: 80%;		
+		margin: auto;
+		margin-top: 20px;
+		height: 430px;
+		overflow: auto;
+
+
+
+	}	
+
+	.CARTcontent button{
+		padding: 0px 6px 0px 6px;
+
+
+	}	
+	.CARTcontent a{
+		text-decoration: none;
+
+	}	
+	.CARTcontentTHead{
+		background-color: green;
+		color: white;
+
+	}
+
+	.CARTcontentTtotal{
+		width: 100px;
+	}
+	.CARTcontentTQuan{
+		width: 200px;
+	}
+
+	.CARTcontentTPrice{
+		width: 150px;
+	}
+	.CartIMG{
+		width: 100px;
+		height: 80px;
+	}
+	.widthIMG{
+		width: 150px;
+	}
+	.removeCart{
+		width: 40px;
+	}
+
+
+
+	/* ======================================================== BUY NOW ======================================*/
+
+	.buynow{
+		width: 80%;		
+		margin: auto;
+		margin-top: 20px;
+		height: 76px;
+		border: 1px solid silver;
+		margin-bottom: 10px;
+		font-size: 18px;
+
+
+	}
+	.Label{
+		padding: 27px;
+		float: left;
+		margin-right: 85px;
+	}
+
+	.spanme{
+		color: green;
+	}
+
+	
+	.btnCheck{
+		margin-top: 18px;
+
+	}
+	.btnCheck button{
+		padding: 10px;
+		border-radius: 10px;
+		border: 1px solid green;
+		cursor: pointer;
+
+	}
+	.btnCheck button:hover{
+		background-color: green;
+		color: white;
+	}
+	 
+
+ /* ======================================================= single products =======================================*/
+		.imageProduct{
+			float: left;
+			width: 50%;			 
+			padding: 40px;
+			text-align: center;
+			margin-top: 1px;
+			margin-bottom: -24px;
+			
+		}
+		.imageProduct img{
+			width: 80%;
+			height: 450px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+			margin-left: 120px;
+
+		}
+
+		.descriProduct{
+			float: left;
+			width: 30%;		 		 
+			text-align: center;
+			margin-top: 1px;
+			text-align: justify;
+			padding-top: 50px;
+			margin-left: 50px;	
+		}
+		.descriProduct h1, h2, h3, p{
+		 	margin-bottom: 20px;
+		}
+
+		.btn_addme{
+			padding: 10px;
+			cursor: pointer;
+		  	font-size: 16px;
+
+		}
+		.btn_addme:hover{
+			background-color: green;
+			color: white;
+		}
+
+		.backtoindex{
+			margin-top: 50px;
+		}
+
+		.backtoindex a{
+			text-decoration: none;
+			padding: 5px 10px;
+			color: green;
+		} 
+
+		.backtoindex a:hover{
+			color: #333;
+			font-weight: bold;
+		}
+
+		/* ======================================================= MANAGE ACCOUNT ==============================*/
+
+		.accCONTAINER{
+			width: 70%;
+			margin: auto;
+		 
+			margin-top: 20px;
+
+		}
+		.accLEFT{
+			float: left;
+			margin-left: 60px;
+			border: 1px solid gray;
+			width: 40%;
+			padding: 10px;
+			margin-right: 20px;
+		}
+
+		.accLEFT  button{
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+
+		.accRIGHT  button{
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+
+		.accLEFT fieldset{
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+ 		.accLABEL{
+ 			float:	left;
+ 			width: 100px;
+ 			margin-top: 10px;
+ 			margin-left: 10px;
+ 	 
+
+ 		}
+ 		.accVIEW{
+ 			float:	left;
+ 			width: 200px;
+ 			margin-top: 10px;
+ 			margin-left: 10px; 
+
+
+ 		}
+ 		.accRIGHT{
+ 	 
+			float: left;		 
+			border: 1px solid gray;
+			width: 40%;
+			padding: 10px;
+			margin-bottom: 100px;	
+		}
+		.accRIGHT span{
+ 	  		color:red;
+
+ 	  	}
+
+ 	  	/* =============================================================== FOOTER CONTACT US AND ABOUT US ==================================*/
+
+ 	  	.kami{
+ 	  		width: 64%;
+ 	  		margin: auto;
+ 	  		 
+ 	  	}
+
+ 	  	.contact{
+ 	  		width: 90%;
+ 	  		margin: auto;
+ 	  		border: 1px solid gray;
+ 	  		 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+ 	  		 padding: 20px;
+ 	  		 margin-top: 12px;
+ 	  		 padding-left: 38px;
+ 	  	}
+
+ 	  	.contact label{
+
+ 	  	}
+	.contact input{
+ 	  		 padding: 10px;
+ 	  		 width: 90%
+ 	  	}
+
+ 	  	.contact button{
+ 	  		 padding: 10px;
+ 	  		  
+ 	  	}
+ 	  	.contact textarea{
+ 	  	width: 93%;
+ 	  	height: 100px;
+
+ 	  		  
+ 	  	}
+
+ 	  	/* =================================================== View Messsages ============================================*/
+
+ 	  	.viewMessagesContainer{
+ 	  			 
+		width: 85%;
+		padding: 8px;
+		margin: auto;
+		border: 1px solid black;
+		 
+
+ 
+ 	  	}

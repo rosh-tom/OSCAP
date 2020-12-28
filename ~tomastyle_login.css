@@ -1,0 +1,177 @@
+	* {
+
+		margin: 0px;
+		padding: 0px;
+		font-size: 16px;
+
+	}
+
+
+	.container{
+
+		width: 100%;
+		height: 100%;		
+
+	}
+
+	.frm_login{
+
+		background-color: #f1f1f1f1;;
+		border: 1px solid #f1f1f1f1;
+		width: 30%;
+		height: 75%;		 
+		position: absolute;
+ 		margin: auto;
+		top: 0;
+ 		right: 0;
+ 		bottom: 0;
+  		left: 0;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);	 
+
+	}
+
+	.login_wrapper{
+
+		margin:auto;
+		width: 90%;
+		margin-right: 6px;
+		margin-top: 30px;
+
+
+	}
+
+	.login_avatar{
+
+	  	text-align: center;
+	  	margin: 24px 0 12px 0;
+	  	position: relative;
+	}
+
+	img.avatar{
+
+		width: 50%;
+	 	border-radius: 50%;
+	 	border: 1px solid #f1f1f1f1;
+	 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  
+	}
+
+
+	.login_itemgroup{
+
+		margin: 10px 0px 10px 0px;
+
+	}
+
+	.login_itemgroup input{
+
+		height: 30px;
+		width: 93%;
+		padding: 5px 10px;
+		font-size: 16px;
+		border-radius: 5px;
+		border: 1px solid gray;
+
+	}
+
+	.login_btn:hover{
+
+		background-color: #3e8e41;
+		color: white;
+		cursor: pointer;
+
+	}
+
+	.login_lower{
+		width: 92%;
+		margin-top: 10px;
+ 
+	}
+
+	.forgotpass{
+
+		text-decoration: none;
+		color: black;
+
+	}
+
+	.regist{
+
+		text-decoration: none;
+		color: black;
+		float: right;
+
+	}
+
+	.forgotpass:hover, .regist:hover{
+
+		text-decoration: underline;
+		color: #3e8e41;
+
+	}
+
+	.leftdivider{
+		float: left;
+		width: 38%;
+		font-size: 16px;
+	}
+ 
+ 	.rightdivider{
+		float: left;
+		width: 11%;
+		font-size: 16px;
+		margin-top: 9px;
+ 	}
+
+
+ 	.rightdivider input{
+	 padding: 5px;
+	 float: left;
+	 margin: 7px;
+	 border-radius: 5px;
+
+ 	}
+
+ 	.leftdivider p{
+		 padding: 5px;
+		 font-size: 20px;
+		 margin: 14px;
+	}
+
+	.btnCreate {
+		padding: 5px;
+		border-radius: 5px;
+		cursor: pointer;
+		float: left;
+		width: 100%;
+		margin-top: 20px;
+	 
+	}
+
+	.btnCreate input{
+		padding: 15px;
+	 	cursor: pointer;
+	}
+
+	.btnCreate input:hover{
+		color: white;
+		background-color: green;
+
+
+	}
+
+	.cancel{
+		margin-left: -10px;
+	}
+
+	.createLABEL{
+		text-align: center;
+		margin-top: -10px;
+		font-size: 18px;
+	}
+	.btn_createAcc{
+		margin-left: 130px;
+	}
+
+ 
+ 
